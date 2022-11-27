@@ -1,0 +1,228 @@
+<html>
+    <head>
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="http://www.ler.uam.mx/">
+    <img src="data:image/png;base64,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" alt="logo" style="width:350px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Buscar</button>
+  </form>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.uam.mx/">UAM</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.tolucatecnm.mx/">Tecnológico de Toluca</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.unam.mx/">UNAM</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://utvt.edomex.gob.mx/">UTVT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.uaemex.mx/">UAEMEX</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://tec.mx/es">Tecnológico de Monterrey</a>
+    </li>
+    
+  </ul>
+</nav>
+
+<div class="container-fluid">
+  <h3></h3>
+  <p> </p>
+</div>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <img src="https://uvg.edu.mx/blog/wp-content/uploads/2018/10/blog_diciembre_32.jpg" class="float-right" alt="Paris" width="350" height="236"> 
+  <div class="jumbotron">
+
+    <h1>Bienvenidxs</h1>      
+    <p>Esta página web se basa en la elección de Instituciones de Educación Superior (IES) en los estudiantes de Educación Media Superior del Valle de Toluca debido a que al estar por concluir sus estudios se encuentran en una de las decisiones más importantes de su vida que es la elección de carrera universitaria e institución, es importante tomar la decisión desde antes debido a que la mayoría de las Instituciones de Educación Superior en México comienzan los procesos de admisión desde el mes de diciembre, debido a que existen diferentes universidades tanto públicas o privadas.</p>
+  </div>
+  <p></p>      
+  <p></p>      
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+        
+
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.tolucatecnm.mx/images/media/202202/img-1645121031.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://tec.mx/sites/default/files/styles/16_9_campus/public/repositorio/Campus/Slider/tec-puebla-fachada.jpg?itok=lLpO5RMH" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.generacionuniversitaria.com.mx/wp-content/uploads/2022/08/positivoUNAM-1024x631.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+
+
+
+
+
+ 
+  <!--Paginación-->
+  <!-- Espaciador --><div id="espaciador"></div>
+
+ <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#">Anterior</a>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Suiguiente</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Espaciador -->
+<div id="espaciador"></div>
+
+<!-- Aquí empieza mi pie de página -->
+<div class="container-fluid bg-dark">
+  <div class="container">
+
+      <!-- Espaciador -->
+      <div id="espaciador"></div>
+
+      
+          <!-- columna dos-->
+          <div class="col-6 text-light">
+              <h3>Elección de carrera</h3>
+              <div class="form-group">
+                <label for=""></label>
+                <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Escribe tu mensaje u opinión</small>
+              </div>
+              <a name="" id="" class="btn btn-primary" href="https://mail.google.com/mail/u/0/?hl=es#inbox?compose=GTvVlcSGLPlxpNLmKjhfcvSFZnVcqnkCkHtcCHJLZKmWxmLCjZfnFCcjDGhXWFpsLspfMPXKKDQrS" role="button">Enviar</a>
+          </div>
+      </div><br>
+
+      <div class="row text-light">
+          <div class="col-12">
+              <p class="small text-center">&copy; 2022-2024 página de elección de carrera</p>
+          </div>
+      </div>
+
+
+      <!-- Espaciador --><div id="espaciador"></div>
+</body>
+</html>
+
+
+
+
+
+       
+</html>
